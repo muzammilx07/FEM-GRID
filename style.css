@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Martian Mono', monospace;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-content: center;
+    justify-items:center ;
+    background-color: #ECF2F8;
+}
+
+.container{
+    display: grid;
+    background-color:#ECF2F8;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows:280px 280px ;
+    gap: 28px;
+
+}
+
+.daniel{
+    grid-column: 1/3;
+    background-color: #7541C8;
+    background-image: url(https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+    border-radius: 10px;
+}
+.kira{
+    background-color: rgb(255, 255, 255);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start:4;
+    border-radius: 10px;
+}
+.jonanthan{
+    background-color:#48556A;
+    border-radius: 10px;
+}
+.jeanette{
+    background-color: white;
+    border-radius: 10px;
+}
+.patrick{
+    background-color:#19212E;
+    grid-column:2/4 ;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+.entity{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 30px 30px;
+}
+.entity h1{
+    font-size:xx-small;
+    font-weight:bold;
+    color: white;
+    margin-left: 20px;
+    text-align: left;
+}
+.entity h2{
+    font-size:x-small;
+    opacity: 50%;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-align: left;
+}
+.entity1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 30px 30px;
+}
+.entity1 h1{
+    font-size:xx-small;
+    font-weight:bold;
+    color: black;
+    margin-left: 20px;
+    text-align: left;
+}
+.entity1 h2{
+    font-size:x-small;
+    opacity: 50%;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-align: left;
+}
+.p1{
+    margin: 30px 30px 10px 30px;
+    text-align: left;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.p2{
+    margin: 30px 30px 10px 30px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.p0{
+    margin: 10px 30px 10px 30px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-weight: x small;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    opacity: 70%;
+}
+.p01{
+    margin: 10px 30px 10px 30px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: small;
+    font-weight: x small;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    opacity: 70%;
+}
